@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools for Claude Code",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
         "url": "https://github.com/stonelyd/seiraiyu-skills.git"
       },
       "description": "CodeRabbit PR review automation and other productivity skills",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "strict": true
     }
   ]
