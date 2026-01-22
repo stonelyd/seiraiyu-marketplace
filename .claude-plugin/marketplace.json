@@ -1,16 +1,21 @@
 {
   "name": "seiraiyu-marketplace",
-  "version": "1.0.0",
-  "description": "Skills, workflows, and productivity tools for Claude Code",
+  "owner": {
+    "name": "stonelyd"
+  },
+  "metadata": {
+    "description": "Skills, workflows, and productivity tools for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "seiraiyu-skills",
-      "version": "1.0.0",
-      "description": "CodeRabbit PR review automation and other productivity skills",
       "source": {
-        "type": "github",
-        "repo": "stonelyd/seiraiyu-skills"
+        "source": "url",
+        "url": "https://github.com/stonelyd/seiraiyu-skills.git"
       },
+      "description": "CodeRabbit PR review automation and other productivity skills",
+      "version": "1.0.0",
       "strict": true
     }
   ]
