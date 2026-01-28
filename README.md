@@ -25,10 +25,12 @@ A Claude Code plugin marketplace for skills, workflows, and productivity tools.
 
 ### seiraiyu-skills (v1.0.0)
 
-CodeRabbit PR review automation and other productivity skills.
+CodeRabbit PR review automation, MCP integration, and documentation skills.
 
 **Skills included:**
 - `respond-to-coderabbitai` - Automatically resolve PR review comments with atomic commits
+- `mcp-client` - Universal MCP client for connecting to Zapier, GitHub, and any MCP server
+- `sop-creator` - Create runbooks, playbooks, and technical documentation
 
 ## License
 
