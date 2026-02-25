@@ -23,12 +23,15 @@ A Claude Code plugin marketplace for skills, workflows, and productivity tools.
 
 ## Available Plugins
 
-### seiraiyu-skills (v1.0.0)
+### seiraiyu-skills (v1.2.0)
 
-CodeRabbit PR review automation, MCP integration, and documentation skills.
+CodeRabbit PR review automation, Jira CLI, Confluence CLI, Neon CLI, and productivity skills.
 
 **Skills included:**
 - `respond-to-coderabbitai` - Automatically resolve PR review comments with atomic commits
+- `jira` - Manage Jira issues, projects, and sprints from the CLI
+- `confluence` - Read, create, update, search, and export Confluence pages from the CLI
+- `neon` - Manage Neon serverless Postgres projects, branches, and databases
 - `mcp-client` - Universal MCP client for connecting to Zapier, GitHub, and any MCP server
 - `sop-creator` - Create runbooks, playbooks, and technical documentation
 
