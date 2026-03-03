@@ -17,6 +17,16 @@
       "description": "CodeRabbit PR review automation, Jira CLI (acli), Neon CLI, SOP creator, E2E browser testing (agent-browser & playwright-cli), and productivity skills",
       "version": "1.5.0",
       "strict": true
+    },
+    {
+      "name": "superwisdom",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stonelyd/seiraiyu-superwisdom.git"
+      },
+      "description": "Streamlined development workflow skills — brainstorm, plan, execute, TDD, debug, review, teams, git-flow, verify. Professional, team-oriented, lean.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
