@@ -25,7 +25,7 @@
         "url": "https://github.com/stonelyd/seiraiyu-superwisdom.git"
       },
       "description": "Streamlined development workflow skills — brainstorm, plan, execute, TDD, debug, review, teams, git-flow, verify. Professional, team-oriented, lean.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "strict": true
     }
   ]
