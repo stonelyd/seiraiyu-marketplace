@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools for Claude Code",
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   "plugins": [
     {
@@ -26,6 +26,16 @@
       },
       "description": "Streamlined development workflow skills — brainstorm, plan, execute, TDD, debug, review, teams, git-flow, verify. Professional, team-oriented, lean.",
       "version": "1.0.0",
+      "strict": true
+    },
+    {
+      "name": "superwisdom-db",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stonelyd/superwisdom-db.git"
+      },
+      "description": "DB-backed variants of superwisdom skills — brainstorm, plan, execute, review, debug, tdd. Persists artifacts in Postgres (Subaya schema) instead of docs/plans/*.md.",
+      "version": "0.1.0",
       "strict": true
     }
   ]

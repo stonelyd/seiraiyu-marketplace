@@ -53,6 +53,25 @@ Streamlined development workflow skills — consolidated replacement for superpo
 /plugin install superwisdom@seiraiyu-marketplace
 ```
 
+### superwisdom-db (v0.1.0)
+
+DB-backed variants of the superwisdom skills. Persists brainstorm and plan artifacts in Postgres (Subaya platform schema: `documents`, `initiatives`, `work_items`, `design_reviews`, `review_*`) instead of writing `docs/plans/*.md` files. Pairs with a spec-ui review surface that provides section-level approve/reject, line-anchored comments with resolve/edit/delete, and round-aware revision snapshots.
+
+**Skills included:**
+- `brainstorm-db` - Interview → design document + initiative upsert (DB-backed)
+- `plan-db` - Plan document + work_items (epics/stories/tasks) population; requires approved design
+- `execute-db` - Walk plan tasks, update work_items; requires approved plan
+- `review-db` - Agent-side review; writes `review_comments` with `author_type='agent'`
+- `debug-db` - Investigate failing work_item, fix code, update `test_status` + notes
+- `tdd-db` - Red-green-refactor with `test_location` and `test_status` updates
+
+**Requires:** `psql` client, authenticated `neon` CLI (`neon cs` returns a valid connection string), and `jq`.
+
+**Install:**
+```bash
+/plugin install superwisdom-db@seiraiyu-marketplace
+```
+
 ## License
 
 MIT
