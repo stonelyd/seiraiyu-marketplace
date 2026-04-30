@@ -15,7 +15,7 @@
         "url": "https://github.com/stonelyd/seiraiyu-skills.git"
       },
       "description": "CodeRabbit PR review automation, Jira CLI (acli), Neon CLI, Obsidian CLI, SOP creator, E2E browser testing (agent-browser & playwright-cli), and productivity skills",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "strict": true
     },
     {
