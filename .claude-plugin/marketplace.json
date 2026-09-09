@@ -34,8 +34,8 @@
         "source": "url",
         "url": "https://github.com/stonelyd/superwisdom-db.git"
       },
-      "description": "DB-backed variants of superwisdom skills — brainstorm, plan, execute, review, debug, tdd. Persists artifacts in Postgres (Subaya schema) instead of docs/plans/*.md.",
-      "version": "0.1.0",
+      "description": "DB-backed variants of superwisdom skills — brainstorm, plan, execute, review, debug, tdd. Persists artifacts in the Coxswain planning DB (COX_PLANNING_DSN) instead of docs/plans/*.md.",
+      "version": "0.2.0",
       "strict": true
     }
   ]
